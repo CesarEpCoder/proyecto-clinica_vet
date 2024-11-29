@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" src="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/css/estilos_gon.css">
 </head>
-<body bgcolor="#2c3c50">
-    <img src="/imagenes/login.png" alt="img_login" width="80" height="80">
-    <h1>Usuario</h1>
-    <textarea name="usuario" id="txt_usuario"></textarea>
-    <h1>Contraseña</h1>
-    <textarea name="contraseña" id="txt_contraseña"></textarea>
+<body>
+    <div class="formulario">
+        <center><img src="/imagenes/login.png" alt=""></center>
+        <form method="post">
+            <div class="usuario">
+                <input type="text" required>
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="usuario">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <input type="submit" value="Iniciar">
+        </form>
+    </div>
+    
 </body>
 </html>

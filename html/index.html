@@ -6,25 +6,70 @@
     <title>Veterinaria</title>
     <link rel="stylesheet" href="/css/estilos_gon.css">
 </head>
-<body bgcolor="#2c3c50">
-    <center><h1 style="font-size: 2rem;">Veterinaria ""</h1></center>
-    <div class="opciones">
-    <p>Servicios</p>
-    <label for="servicios"></label>
-    <select name="servicios" id="servicios">
-        <option value="-"></option>
-        <option value="Registro">Registro</option>
-        <option value="Cosulta">Consulta</option>
-        <option value="Urgencia">Urgencia</option>
-        <option value="Cirugia">Cirugia</option>
-        <option value="Vacunas">Vacunas</option>
-    </select>
-    <p class="login"><a href="/html/login.html">Login</a></p>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/imagenes/veterinario.png" alt="">
+      <h3 class="titulo">Clinica Veterinaria</h3>
     </div>
-    <div class="galeria">
-        <img src="/imagenes/mascotas1.jpg" alt="">
-        <img src="/imagenes/mascotas2.webp" alt="">
-        <img src="/imagenes/mascotas3.avif" alt="">
+      <nav>
+        <a href="#historia">¿Quienes somos? 🐶</a>
+        <a href="#contacto">Contacto 📞</a>
+        <a href="login.html">Login 👤</a>
+      </nav>
+  </header>
+  <section id="hero">
+    <h3 class="banner">Más de 30 años de experiencia en atencion medica veterinaria para especies menores</h3>
+  </section>
+  <section id="servicios">
+    <div class="container"></div>
+    <h3>Nuestros Servicios</h3>
+    <div class="servicio">
+      <div class="carta">
+        <h3>Consulta General</h3>
+        <center><img src="/imagenes/historial-medico.png" alt=""></center>
+        <ul>
+          <li>Vacunaciones</li>
+          <li>Desparasitaciones</li>
+          <li>Implantacion de chip</li>
+          <li>Control sano</li>
+        </ul>
+      </div>
+      <div class="carta">
+        <h3>Hospitalizacion</h3>
+        <center><img src="/imagenes/hospital.png" alt=""></center>
+        <ul>
+          <li>Procedimientos hospitalitarios</li>
+          <li>Hospitalizacion infecciosa</li>
+          <li>Quimioterapia</li>
+        </ul>
+      </div>
+      <div class="carta">
+        <h3>Cirugia</h3>
+        <center><img src="/imagenes/doctor.png" alt=""></center>
+        <ul>
+          <li>Anestesia</li>
+          <li>Esterilizaciones</li>
+          <li>Cesareas</li>
+          <li>Cirugia ortopedica</li>
+        </ul>
+      </div>
     </div>
+  </section>
+  <section id="historia">
+    <div class="container"></div>
+    <h3>¿Quienes somos?</h3>
+    <p>En Clinica Veterinaria, somos un equipo de profesionales apasionados por el bienestar y la salud de tus mascotas. Nos dedicamos a brindar atención médica veterinaria de calidad, con un enfoque humano y personalizado para cada mascota que llega a nuestra consulta.
+      <br>Contamos con un grupo de veterinarios, enfermeros y especialistas altamente capacitados, que utilizan la tecnología más avanzada para el diagnóstico y tratamiento de tu mascota.
+    </p>
+  </section>
+  <footer id="contacto">
+    <h3>Contacto</h3>
+    <p>perro_chocolo@clinicavet.com
+      <br>+56 912345678
+      <br>Castro, Chiloé
+    </p>
+  </footer>
+  
 </body>
 </html>
